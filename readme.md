@@ -11,9 +11,13 @@ The VehicleHouse database schema is designed to store and manage information rel
 The schema consists of the following tables:
 
 - **dealerships**: Stores information about dealerships, including dealership ID, name, address, and phone number.
+
 - **vehicles**: Contains details about vehicles, such as VIN (Vehicle Identification Number), year, make, type, color, odometer reading, price, and sold status.
+
 - **inventory**: Represents the relationship between dealerships and vehicles, specifying which vehicles are available at each dealership.
+
 - **sales_contracts**: Stores information about sales contracts, including contract ID, VIN, date, client name, client email, recording fee, and sales tax.
+
 - **lease_contracts**: Contains details about lease contracts, including contract ID, date, client name, client email, and VIN.
 
 ## Installation 📥
@@ -32,7 +36,7 @@ Once the database is set up, you can use it to perform various operations relate
 
 - Retrieve all dealerships:
 
-`SELECT * FROM dealerships;`
+  `SELECT * FROM dealerships;`
 
 - Find all vehicles for a specific dealership:
 
