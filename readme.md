@@ -1,4 +1,4 @@
-# VehicleHouse Database Schema 📝
+# VehicleHouse Database Schema 💾
 
 This repository contains the SQL schema for the VehicleHouse database. The database schema is designed to manage vehicle inventory, dealerships, and sales/lease contracts.
 
