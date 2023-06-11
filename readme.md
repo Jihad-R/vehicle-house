@@ -30,6 +30,10 @@ To use this database schema, you need a MySQL server installed on your machine. 
 4.  Switch to the `vehicleHouse` database using the command: `USE vehicleHouse;`
 5.  Execute the SQL script `vehicleHouse_schema.sql` to create the tables and populate them with sample data.
 
+## ER Diagram
+
+<img src= 'images/DB-Schema.png' alr='alldealerships' height='300px' width='400px'>
+
 ## Usage 🛠️
 
 Once the database is set up, you can use it to perform various operations related to vehicle inventory, dealerships, sales contracts, and lease contracts. Here are some example queries you can run:
