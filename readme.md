@@ -20,6 +20,10 @@ The schema consists of the following tables:
 
 - **lease_contracts**: Contains details about lease contracts, including contract ID, date, client name, client email, and VIN.
 
+### ER Diagram
+
+<img src= 'images/DB-Schema.png' align='center' alr='alldealerships' height='300px' width='400px'>
+
 ## Installation 📥
 
 To use this database schema, you need a MySQL server installed on your machine. Follow these steps to set up the VehicleHouse database:
@@ -29,10 +33,6 @@ To use this database schema, you need a MySQL server installed on your machine. 
 3.  Create a new database named `vehicleHouse` by executing the following command: `CREATE DATABASE vehicleHouse;`
 4.  Switch to the `vehicleHouse` database using the command: `USE vehicleHouse;`
 5.  Execute the SQL script `vehicleHouse_schema.sql` to create the tables and populate them with sample data.
-
-## ER Diagram
-
-<img src= 'images/DB-Schema.png' alr='alldealerships' height='300px' width='400px'>
 
 ## Usage 🛠️
 
